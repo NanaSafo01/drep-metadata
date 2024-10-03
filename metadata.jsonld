@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820785a2d83cb78fb32a6afeefd3ef6447ded6c27c792a50fc223d6e6be551dfe01"
+        },
+        "signature": {
+          "@value": "845829a201276761646472657373581ca53027bb45560a772135d0815c08f041447261bd5c40d897282205aba166686173686564f4584456657269667920445265702064726570313535637a307736393263393877676634367a7134637a387367397a3879636461743371643339656779677a366b327961776d36584049f65e7f3d0a0f9883a3ec6d84dff0ef15a7bb9ea870aa1f0586968f3139294620441105fd94122695f118483da85e63236bdfd5af8dcdb60189d26795fadf0a"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "We are an international organization with local footprints"
+    },
+    "email": {
+      "@value": "drep@wada.org"
+    },
+    "givenName": {
+      "@value": "Wada"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmZoiVvufKiH8MiDiET5WWphfHwSi19im9omGnmYtannq3",
+      "sha256": "d345bf70708e7fe139fd3cbcc54563ab4edc8690a50dbf888032d0dfbafee777"
+    },
+    "motivations": {
+      "@value": "Wada's primary motivation as a DRep is to amplify the voices of underrepresented communities and increase their participation in the ecosystem.\n\nBy increasing participation and adoption, we encourage change at the local level, meaning more activity, transactions and overall usage of Cardano as the blockchain of choice.\n\nSince 2020, Wada has been at the forefront of Cardano adoption in Africa, and will continue this effort with your support."
+    },
+    "objectives": {
+      "@value": "As a DRep, we are committed to:\n\n- Securing and maintaining the core infrastructure of Cardano, including SPOs.\n\n- Driving adoption at the ground level through events, workshops and hackathons.\n\n- Supporting developers and entrepreneurs in building the dApps of the future.\n\n- Long-term sustainability through robust governance and treasury management protocols."
+    },
+    "paymentAddress": {
+      "@value": "addr1q8eh784q7jknkznwa43saj5qu0mtgekvj73e0vsvwgjdr09yjtcuxltzs9r9h3duxafpf2k6w8emjw9adk0hjansr78s4l5dy2"
+    },
+    "qualifications": {
+      "@value": "Ecosystem: Strong track record of involvement in the Cardano and Project Catalyst ecosystems, with over 50 projects completed together with partners and collaborators.\n\nReach: Active in over 10 countries and 13 communities, with 1500+ event attendees and participants.\n\nExpertise: An international organization with local expertise, covering both top-down and bottom-up approaches to governance and innovation.\n\nCommunity Engagement: Deep ties with household names within Cardano and a willingness to collaborate across different sectors and regions."
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Website"
+        },
+        "uri": {
+          "@value": "https://wada.org"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/wada_org"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "LinkedIn"
+        },
+        "uri": {
+          "@value": "https://linkedin.com/company/wada-org"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "YouTube"
+        },
+        "uri": {
+          "@value": "https://youtube.com/wada-org"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Discord"
+        },
+        "uri": {
+          "@value": "https://discord.com/invite/we57T2YSnQ"
+        }
+      }
+    ]
+  }
+}
