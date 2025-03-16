@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "We are voting YES on this governance action not because the various line items listed in the proposal’s external documentation meet or address all instances of growth and development of the ecosystem. Instead, as Cardano has transitioned fully into a new era, we believe that the volume of responsibility bestowed on us as a community to own and manage the ecosystem is one that is really heavy and plentiful; hence, the availability of a realistic vision, backed by a time-bound roadmap to guide our development and expenditure, is crucial to prevent us from doing things that would destruct the organic growth, security, and sustainability of the ecosystem.\n\nWe believe the line items spelled out in the roadmap are all crucial for the ecosystem’s growth. Our only feedback is that whereas the roadmap gives a lot of attention to development, a good amount of attention should also be given to educating the community about the need for these developments. We should also look at training a lot more developers for effective inclusion in the development of the ecosystem. Africa has a lot of potential in that regard, where the ecosystem could tap in by simplifying the development process and encouraging the young and vibrant minds of the region to engage through the creation of technical educational opportunities."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
