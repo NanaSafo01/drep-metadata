@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "As Wada DRep, we represent a decentralized and globally connected network of Cardano community builders, innovators, and voters; many based across Africa and the diaspora. Our role in constitutional governance is to act in the best interests of the ecosystem while reflecting the priorities of our community and honoring our internal deliberative frameworks.\nWe have voted YES on this proposal to establish a 300 million ADA Net Change Limit (NCL) for the period covering Epochs 563 to 635, and we offer the following rationale:\n\nAs part of our review of community proposals during the 2025 budget cycle, the Wada DRep adopted an internal NCL ceiling of 280 million ADA. This number reflected a balanced position; conservative enough to avoid excessive Treasury depletion, but generous enough to allow meaningful investments in Cardano’s decentralized future.\nThe 300M NCL now under vote is closely aligned with this internal benchmark, offering a realistic and responsible ceiling that supports the continuity of projects we already endorsed. For us, voting “Yes” on this proposal reinforces the integrity of the internal budgeting framework we shared with our stakeholders.\n\nWe are in a critical phase of implementation. The Cardano community has approved over ₳275.3 million worth of proposals, including those administered by Intersect, alongside other important initiatives like the Amaru node development which is up for voting.\nMany of these projects have 12-month roadmaps that will extend into 2026. A 300M ADA NCL for Epochs 563 to 635 ensures that disbursements tied to milestones in 2026 remain viable, and that there is no break in Treasury availability when it’s most needed to sustain development momentum.\nIn this sense, the 300M NCL is not speculative. It is a realistic reflection of existing commitments that now require a supportive fiscal framework.\n\nWe understand that some in the community favor a lower NCL (such as the 200M proposal) out of caution and a desire to protect Treasury longevity. We share the value of sustainability, but we also recognize the risks of underfunding an ecosystem that is entering a new phase of decentralized governance.\nThe 300M proposal is a responsible compromise. It is lower than the 350M NCL already approved for 2025, but high enough to enable critical functions, including:\n1. DRep tooling and compensation\n2. Ongoing constitutional committee operations\n3. Developer audits and milestone reviews\n4. Outreach, education, and regional capacity-building\n5. Infrastructure delivery and protocol experimentation\nBy voting \"Yes,\" we endorse a path that supports responsible spending without limiting our ability to learn, adapt, and iterate.\n\nOne of the worst outcomes we can invite as a decentralized ecosystem is uncertainty; especially after budgets have been approved. A delayed or insufficient NCL would create ambiguity about whether or how proposals will be funded beyond 2025.\nThe 300M ADA limit reduces this ambiguity and offers DReps, proposers, and contributors a clearer framework for long-term planning. It also allows Treasury Withdrawal governance actions to proceed with confidence that funds are available up to a predictable ceiling.\n\nOur “Yes” vote on the 300 million ADA NCL proposal reflects a careful balance between fiscal responsibility and ecosystem stewardship. This limit:\n1. Aligns with our internal 280M fiscal model,\n2. Supports funding continuity for already-approved projects,\n3. Avoids disrupting long-term roadmaps,\n4. Provides a safe, sustainable alternative to both overly high or overly restrictive limits.\n\nIn short, it is a measured, community-informed, and execution-ready fiscal guardrail.\n\nAs Wada DRep, we believe this proposal offers Cardano a stable foundation to advance its 2025–2026 governance and development agenda. We urge fellow DReps and stakeholders to vote Yes.\n\nLet’s build Cardano’s next chapter boldly and responsibly.\n"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
